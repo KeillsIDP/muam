@@ -5,6 +5,12 @@
   box-sizing: border-box;
   color: white;
   font-weight: 400;
+  text-decoration: none !important;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 2.5vw !important;
 }
 
 @font-face {
@@ -150,21 +156,20 @@ nav.navbar .navbar-nav .nav-link.navbar-link.active{
 
 .service h1 {
   font-size: 2.5vw;
-  margin-bottom:3vw;
+  font-weight: 700;
+  margin-bottom:1vw;
 }
 
 .service p {
   font-size: 0.8vw;
+  font-weight: 400;
+  letter-spacing: 0.03vw;
   margin-bottom:1vh;
 }
 
 .align-offers{
   display: flex;
   flex-direction: column;
-}
-
-.offers-row {
-padding: 1vw;
 }
 
 .offer {
@@ -199,3 +204,32 @@ padding: 1vw;
   font-size: 1.2vw !important;
 }
 
+.info{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.info img{
+  width: 30vw;
+}
+
+.info-text-zone{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: left;
+  font-size: 0.7vw;
+  gap: 1vw;
+  font-weight: 400;
+}
+
+.info-read-button{
+  background: rgb(37,99,235);
+  background: linear-gradient(90deg, rgba(37,99,235,1) 0%, rgba(217,70,239,1) 180%);
+  border-radius: 5px;
+  position: relative;
+  width: 6vw;
+  text-align: center;
+  padding: 0.5vw 0.9vw;
+}

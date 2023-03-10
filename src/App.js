@@ -1,8 +1,9 @@
 import './App.css';
 import {NavBar} from './components/NavBar';
-import {Offers} from './components/Offers';
+import {Service} from './components/Service';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Introduction } from './components/Introduction';
+import {Info} from './components/Info'
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <body>
         <NavBar />
         <Introduction/>
-        <Offers/>
+        <Service/>
+        <Info/>
       </body>
     </div>
   );
