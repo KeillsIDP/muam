@@ -4,6 +4,7 @@ import {Service} from './components/Service';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Introduction } from './components/Introduction';
 import {Info} from './components/Info'
+import {Team} from './components/Team'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Introduction/>
         <Service/>
         <Info/>
+        <Team/>
       </body>
     </div>
   );
