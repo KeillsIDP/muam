@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/muam/static/css/main.73c7bd72.css",
-    "main.js": "/muam/static/js/main.f4e58dd8.js",
+    "main.css": "/muam/static/css/main.d5b9192e.css",
+    "main.js": "/muam/static/js/main.a941bf37.js",
     "static/js/787.88ae0382.chunk.js": "/muam/static/js/787.88ae0382.chunk.js",
     "static/media/bg.png": "/muam/static/media/bg.c9721cfa5cea018cb6fd.png",
     "static/media/Saly-19.png": "/muam/static/media/Saly-19.67697ba3a63d1d869448.png",
     "static/media/man2.png": "/muam/static/media/man2.f4e34ac6de2f07060f33.png",
     "static/media/man1.png": "/muam/static/media/man1.0791dfb48b7b70c26e09.png",
+    "static/media/Rubik-Medium.ttf": "/muam/static/media/Rubik-Medium.245b10a6d17a17375df5.ttf",
     "static/media/DMSans-Regular.ttf": "/muam/static/media/DMSans-Regular.4ee96395e07a04577aab.ttf",
     "static/media/DMSans-Bold.ttf": "/muam/static/media/DMSans-Bold.c423ce2dc1d85bc50799.ttf",
     "static/media/DMSans-Medium.ttf": "/muam/static/media/DMSans-Medium.150680530af9dd9fd00b.ttf",
@@ -22,17 +23,21 @@
     "static/media/Icon5.svg": "/muam/static/media/Icon5.f849e103dfe2d69024b0f5c624a116de.svg",
     "static/media/skype 1.svg": "/muam/static/media/skype 1.635c3115633c6becee3125b843ccd7ee.svg",
     "static/media/icon.svg": "/muam/static/media/icon.12e8a793d52403366e176149359285cb.svg",
+    "static/media/minstagram.svg": "/muam/static/media/minstagram.4ebf282828e94340c0b961e7caa96aed.svg",
+    "static/media/mtwitter.svg": "/muam/static/media/mtwitter.f9b949cb0f71fd910f10ebea46b0a232.svg",
     "static/media/twitter 1.svg": "/muam/static/media/twitter 1.3484555d49841ce462baa7a8e3b8a59e.svg",
     "static/media/Vector.svg": "/muam/static/media/Vector.16e8ffbcb85a4a95ea7a0da0f251d22f.svg",
+    "static/media/mfacebook.svg": "/muam/static/media/mfacebook.1a18b7fafaee367af33b515fda1c8e24.svg",
     "static/media/linkedin 1.svg": "/muam/static/media/linkedin 1.3498e90630411b0337578895d00a5547.svg",
     "static/media/facebook.svg": "/muam/static/media/facebook.661fc925e6e6ca03864e96dd70f2d195.svg",
     "index.html": "/muam/index.html",
-    "main.73c7bd72.css.map": "/muam/static/css/main.73c7bd72.css.map",
-    "main.f4e58dd8.js.map": "/muam/static/js/main.f4e58dd8.js.map",
+    "static/media/Plane.svg": "/muam/static/media/Plane.729906a2c965cb2bac62bb3a2654abf7.svg",
+    "main.d5b9192e.css.map": "/muam/static/css/main.d5b9192e.css.map",
+    "main.a941bf37.js.map": "/muam/static/js/main.a941bf37.js.map",
     "787.88ae0382.chunk.js.map": "/muam/static/js/787.88ae0382.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73c7bd72.css",
-    "static/js/main.f4e58dd8.js"
+    "static/css/main.d5b9192e.css",
+    "static/js/main.a941bf37.js"
   ]
 }
