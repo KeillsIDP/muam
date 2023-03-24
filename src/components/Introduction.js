@@ -11,7 +11,7 @@ export const Introduction = () => {
                 <p>We have over 15 year exprience in business consultting arena. We have over <br/>
                 15 year exprience in business consultting arena and artficial intelligence.</p>
                 <span className='introduction-interactions'>
-                    <p className='join-button'>Join Us</p>
+                    <span className='join-button'><p>Join Us</p></span>
                     <img src={playButton} alt='play'/>
                     <p>Watch video</p>
                 </span>

@@ -4,7 +4,7 @@ import { ArrowRight } from 'react-bootstrap-icons'
 export const Offer = (props) => {
     return (
       
-        <Col>
+        <Col className='offer-col'>
           <span className='offer'>
               <img src = {props.icon} className="offer-image"/>
               <p className='offer-title'>{props.title}</p>

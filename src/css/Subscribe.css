@@ -45,7 +45,7 @@
 }
 
 .subscribe-button{
-    background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+    background:  linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
     border: 0;
     border-radius: 2vw;
     padding: 0.5vw 1.5vw;
@@ -56,4 +56,10 @@
     align-items: center;
     gap: 0.4vw;
     text-align: center;
+    transition: 0.5s;
+}
+
+.subscribe-button:hover{
+    font-size: 0;
+    gap: 0;
 }
