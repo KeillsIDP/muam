@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/muam/static/css/main.3af5989c.css",
-    "main.js": "/muam/static/js/main.be953d87.js",
+    "main.css": "/muam/static/css/main.380bd705.css",
+    "main.js": "/muam/static/js/main.ed65c92c.js",
     "static/js/787.88ae0382.chunk.js": "/muam/static/js/787.88ae0382.chunk.js",
     "static/media/bg.png": "/muam/static/media/bg.c9721cfa5cea018cb6fd.png",
     "static/media/Saly-19.png": "/muam/static/media/Saly-19.67697ba3a63d1d869448.png",
@@ -32,12 +32,12 @@
     "static/media/facebook.svg": "/muam/static/media/facebook.661fc925e6e6ca03864e96dd70f2d195.svg",
     "index.html": "/muam/index.html",
     "static/media/Plane.svg": "/muam/static/media/Plane.729906a2c965cb2bac62bb3a2654abf7.svg",
-    "main.3af5989c.css.map": "/muam/static/css/main.3af5989c.css.map",
-    "main.be953d87.js.map": "/muam/static/js/main.be953d87.js.map",
+    "main.380bd705.css.map": "/muam/static/css/main.380bd705.css.map",
+    "main.ed65c92c.js.map": "/muam/static/js/main.ed65c92c.js.map",
     "787.88ae0382.chunk.js.map": "/muam/static/js/787.88ae0382.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3af5989c.css",
-    "static/js/main.be953d87.js"
+    "static/css/main.380bd705.css",
+    "static/js/main.ed65c92c.js"
   ]
 }
