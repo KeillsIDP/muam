@@ -9,6 +9,7 @@ import alex from '../img/alex.png'
 import afroza from '../img/afroza.png'
 
 import '../css/Team.css'
+import '../css/TeamMobile.css'
 
 export const Team = () =>{
     return(

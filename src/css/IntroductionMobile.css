@@ -1,0 +1,67 @@
+@media screen and (max-width: 767px) {
+        .introduction{
+            align-self: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .introduction-text{
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 2vw;
+        gap: 1vw;
+        }
+    
+        .introduction-hero{
+        width: 0;
+        }
+
+      .introduction-interactions{
+        align-self: center;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        font-size: 3vw;
+        align-items: baseline;
+      }
+
+      .introduction-interactions p{
+        display:  flex;
+        align-items: baseline;
+        gap: 2vw;
+      }
+      
+      .introduction-interactions img{
+        position: relative;
+        top:1.5vw;
+        width: 5vw;
+      }
+      
+      .join-button{
+        background: rgb(37,99,235);
+        background: linear-gradient(90deg, rgba(37,99,235,1) 0%, rgba(217,70,239,1) 180%);
+        border-radius: 0.6vw;
+        padding: 2vw 3.5vw 6vw;
+        transition: .2s;
+        height: 100%;
+        font-size: 3vw !important;
+        cursor: pointer;
+      }
+      .join-button:hover{
+        rotate: 360deg;
+      }
+
+      
+      .introduction-title{
+        font-size: 8vw;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        background-image: linear-gradient(89.83deg, #2563EB 0%, #D946EF 58.65%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+      }
+  } 

@@ -2,11 +2,14 @@ import { Col, Container, Row } from "react-bootstrap"
 import man1 from '../img/man1.png'
 import man2 from '../img/man2.png'
 
+import '../css/Info.css'
+import '../css/InfoMobile.css'
+
 export const Info = () => {
     return (
         <Container className = "info">
             <Row>
-                <Col>
+                <Col className="info-image">
                     <img src = {man1}/>
                 </Col>
                 <Col className="info-text-zone">
@@ -33,7 +36,7 @@ export const Info = () => {
                         <p className="info-read-button">Read More</p>
                     </span>
                 </Col>
-                <Col>
+                <Col className="info-image">
                     <img src = {man2}/>
                 </Col>
             </Row>

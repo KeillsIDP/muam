@@ -1,0 +1,64 @@
+@media screen and (max-width: 767px) {
+    .team{
+        margin: 15vw 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1vw;
+    }
+    
+    .team h2{
+        font-size: 5vw;
+    }
+    
+    .team p{
+        font-size: 3vw;
+        text-align: center;
+    }
+    
+    
+    .team-persons{
+        display: flex;
+        flex-wrap: wrap;
+        gap:5vw;
+        align-content: center;
+    }
+    
+    .team-person{
+        flex: 0 0 47.359%;
+        width: 20vw;
+        height: 35vw;
+        background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+        box-shadow: 0px 1.5vw 1vw rgba(0, 0, 0, 0.05);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 2vw 1vw;
+        border-radius: 1.5vw;
+        font-weight: 400;
+        backdrop-filter: blur(1vw);
+    }
+    
+    .team-person h4{
+        font-size: 3vw;
+    }
+    
+    .team-person-socials{
+        display: flex;
+        justify-content: center;
+        gap: 3vw;
+    }
+
+    .team-person p{
+        font-size: 2.5vw;
+    }
+    
+    .team-person-picture{
+        width: 10vw;
+    }
+    
+    .team-person-social{
+        height: 4vw;
+    }
+}

@@ -59,6 +59,10 @@
     transition: 0.5s;
 }
 
+.subscribe-button img{
+    width: 2vw;
+}
+
 .subscribe-button:hover{
     font-size: 0;
     gap: 0;

@@ -11,7 +11,6 @@ import {Footer} from './components/Footer'
 function App() {
   return (
     <div className="App">  
-      <body>
         <NavBar />
         <Introduction/>
         <Service/>
@@ -19,7 +18,6 @@ function App() {
         <Team/>
         <Subscribe/>
         <Footer/>
-      </body>
     </div>
   );
 }

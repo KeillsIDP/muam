@@ -1,0 +1,41 @@
+.info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .info img{
+    width: 30vw;
+  }
+  
+  .info-text-zone{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: left;
+    font-size: 0.7vw;
+    gap: 1vw;
+    font-weight: 400;
+  }
+  
+  .info-read-button{
+    background: rgb(37,99,235);
+    background: linear-gradient(90deg, rgba(37,99,235,1) 0%, rgba(217,70,239,1) 180%);
+    border-radius: 5px;
+    position: relative;
+    width: 6vw;
+    text-align: center;
+    padding: 0.5vw 0.9vw;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .info-read-button p {
+    cursor: pointer;
+  }
+  
+  .info-read-button:hover{
+    padding: 1vw 1.8vw;
+    width: 8vw;
+    background: linear-gradient(90deg, rgba(37,99,235,1) -50%, rgba(217,70,239,1) 180%);
+  }

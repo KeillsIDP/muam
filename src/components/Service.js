@@ -7,6 +7,9 @@ import icon5 from '../img/Icon5.svg'
 import icon6 from '../img/Icon6.svg'
 import {Offer} from "./Offer"
 
+import '../css/Service.css'
+import '../css/ServiceMobile.css'
+
 export const Service = () => {
     return (
     <div className='service'>
@@ -14,8 +17,8 @@ export const Service = () => {
         <p>We turn information into actionable insights We work to understand your issues<br/>
         and are driven to ask better questions in the pursuit of making work.</p>
     
-    <Container className='align-offers' fluid>
-        <Row xs={3} md={3} lg={3} sm={3} xxl ={3} className = "offers-row">
+    <Container className='align-offers'>
+        <Row xs={1} md={3} lg={3} sm={1} xxl ={3} className = "offers-row">
             <Offer icon = {icon1} title = "Base1"
              text = 'Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.' />
              <Offer icon = {icon2} title = "Base1"
@@ -23,7 +26,7 @@ export const Service = () => {
              <Offer icon = {icon3} title = "Base1"
              text = 'Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.' />
        </Row>     
-       <Row xs={3} md={3} lg={3} sm={3} className = 'offers-row'> 
+       <Row xs={1} md={3} lg={3} sm={1} className = 'offers-row'> 
             <Offer icon = {icon4} title = "Base1"
              text = 'Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.' />
              <Offer icon = {icon5} title = "Base1"

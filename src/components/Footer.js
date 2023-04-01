@@ -1,4 +1,5 @@
 import '../css/Footer.css'
+import '../css/FooterMobile.css'
 
 import {Container,Row,Col} from 'react-bootstrap'
 import zone from '../img/icon.svg'

@@ -2,6 +2,9 @@ import { Container, Row,Col } from 'react-bootstrap';
 import human1 from '../img/Saly-19.png';
 import playButton from '../img/Vector.svg';
 
+import '../css/Introduction.css'
+import '../css/IntroductionMobile.css'
+
 export const Introduction = () => {
     return(
         <Container className ='introduction' fluid>
@@ -11,9 +14,8 @@ export const Introduction = () => {
                 <p>We have over 15 year exprience in business consultting arena. We have over <br/>
                 15 year exprience in business consultting arena and artficial intelligence.</p>
                 <span className='introduction-interactions'>
-                    <span className='join-button'><p>Join Us</p></span>
-                    <img src={playButton} alt='play'/>
-                    <p>Watch video</p>
+                    <span className='join-button'>Join Us</span>
+                    <p><img src={playButton} alt='play'/>Watch video</p>
                 </span>
                 </Col>
             </Row >
