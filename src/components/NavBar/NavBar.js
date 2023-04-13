@@ -1,7 +1,8 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { useState } from 'react';
-import { MenuItem } from './MenuItem';
-import icon from '../img/icon.svg';
+import { MenuItem } from '../MenuItem/MenuItem';
+import icon from './img/icon.svg';
+import './NavBar.css'
 
 export const NavBar = () => {
   const [activeLink,setActiveLink] = useState('home');

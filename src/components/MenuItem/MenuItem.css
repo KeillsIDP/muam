@@ -1,0 +1,41 @@
+.menu-item{
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    backdrop-filter: blur(5px);
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(37,99,235,1) 0%, rgba(217,70,239,1) 180%);
+    min-width: 30vw;
+    min-height: 40vh;
+    padding: 1vh 1vw;
+    border-radius: 2vw;
+  }
+  
+  .menu-title{
+    text-align: center !important;
+    font-size: 3vw !important;
+  }
+  
+  .menu-text{
+    max-width: 30vw;
+    font-size: 1.2vw;
+    text-align: left;
+  }
+  
+  .menu-cross{
+    position: absolute;
+    top: 16vh;
+    left: 63.5vw;
+  }

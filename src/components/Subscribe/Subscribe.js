@@ -1,7 +1,7 @@
 import {Form} from 'react-bootstrap'
-import plane from '../img/Plane.svg'
-import '../css/Subscribe.css'
-import '../css/SubscribeMobile.css'
+import plane from './img/Plane.svg'
+import './Subscribe.css'
+import './SubscribeMobile.css'
 export const Subscribe = () => {
     return(
         <div className='subscribe'>

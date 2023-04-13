@@ -1,15 +1,14 @@
-import { Col, Container, Row } from "react-bootstrap"
-import skype from '../img/skype 1.svg'
-import linked from '../img/linkedin 1.svg'
-import twitter from '../img/twitter 1.svg'
-import facebook from '../img/facebook.svg'
-import sunny from '../img/sunny.png'
-import alina from '../img/alina.png'
-import alex from '../img/alex.png'
-import afroza from '../img/afroza.png'
+import skype from './img/skype 1.svg'
+import linked from './img/linkedin 1.svg'
+import twitter from './img/twitter 1.svg'
+import facebook from './img/facebook.svg'
+import sunny from './img/sunny.png'
+import alina from './img/alina.png'
+import alex from './img/alex.png'
+import afroza from './img/afroza.png'
 
-import '../css/Team.css'
-import '../css/TeamMobile.css'
+import './Team.css'
+import './TeamMobile.css'
 
 export const Team = () =>{
     return(

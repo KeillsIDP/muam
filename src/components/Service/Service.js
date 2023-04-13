@@ -1,14 +1,14 @@
 import { Container,Row } from 'react-bootstrap'
-import icon1 from '../img/icon1.svg'
-import icon2 from '../img/Icon2.svg'
-import icon3 from '../img/Icon3.svg'
-import icon4 from '../img/Icon4.svg'
-import icon5 from '../img/Icon5.svg'
-import icon6 from '../img/Icon6.svg'
-import {Offer} from "./Offer"
+import icon1 from './img/icon1.svg'
+import icon2 from './img/Icon2.svg'
+import icon3 from './img/Icon3.svg'
+import icon4 from './img/Icon4.svg'
+import icon5 from './img/Icon5.svg'
+import icon6 from './img/Icon6.svg'
+import {Offer} from "../Offer/Offer"
 
-import '../css/Service.css'
-import '../css/ServiceMobile.css'
+import './Service.css'
+import './ServiceMobile.css'
 
 export const Service = () => {
     return (

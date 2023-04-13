@@ -1,5 +1,8 @@
 import {Container, Image,Col} from 'react-bootstrap'
 import { ArrowRight } from 'react-bootstrap-icons'
+import './Offer.css'
+import './OfferMobile.css'
+
 
 export const Offer = (props) => {
     return (

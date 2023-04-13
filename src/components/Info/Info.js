@@ -1,9 +1,9 @@
 import { Col, Container, Row } from "react-bootstrap"
-import man1 from '../img/man1.png'
-import man2 from '../img/man2.png'
+import man1 from './img/man1.png'
+import man2 from './img/man2.png'
 
-import '../css/Info.css'
-import '../css/InfoMobile.css'
+import './Info.css'
+import './InfoMobile.css'
 
 export const Info = () => {
     return (

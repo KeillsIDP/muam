@@ -21,6 +21,11 @@
 .footer-row{
     gap:0.2vw;
     flex-direction: column;
+    
+}
+
+a{
+    color: #fff !important;
 }
 
 .footer-handler{

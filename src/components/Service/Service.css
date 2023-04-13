@@ -1,0 +1,28 @@
+.service{
+    margin:5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+  }
+  
+  .service h1 {
+    font-size: 2.5vw;
+    font-weight: 700;
+    margin-bottom:1vw;
+  }
+  
+  .service p {
+    font-size: 0.8vw;
+    font-weight: 400;
+    letter-spacing: 0.03vw;
+    margin-bottom:1vw;
+    align-self: center;
+  }
+  
+  .align-offers{
+    display: flex;
+    flex-direction: column;
+  }
+  

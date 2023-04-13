@@ -1,9 +1,9 @@
 import { Container, Row,Col } from 'react-bootstrap';
-import human1 from '../img/Saly-19.png';
-import playButton from '../img/Vector.svg';
+import human1 from './img/Saly-19.png';
+import playButton from './img/Vector.svg';
 
-import '../css/Introduction.css'
-import '../css/IntroductionMobile.css'
+import './Introduction.css'
+import './IntroductionMobile.css'
 
 export const Introduction = () => {
     return(
