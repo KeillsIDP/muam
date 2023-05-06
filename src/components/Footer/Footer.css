@@ -11,21 +11,28 @@
 }
 
 .footer-info img{
-    height: 1.4vw;
+    height: 1.2vw;
 }
 
 .footer-logo{
-    height: 2vw !important;
+    height: 1.6vw !important;
 }
 
 .footer-row{
-    gap:0.2vw;
+    gap:1vw;
     flex-direction: column;
-    
+}
+
+.footer p {
+    margin: 0 !important;
 }
 
 a{
+    display: flex;
+    gap:1vw;
+    text-align: left;
     color: #fff !important;
+    align-items: center;
 }
 
 .footer-handler{
@@ -43,6 +50,7 @@ a{
 }
 
 .footer-bottom{
+    margin-top: 1vw;
     border-top: 0.02vw solid #969696;
     width: 99vw;
 }

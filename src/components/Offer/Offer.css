@@ -19,7 +19,8 @@
   
   .offer a{
     font-size: 0.8vw;
-    margin: 1.5vw 0 1.5vw 0;
+    margin: 1.5vw 0 1.5vw 0 !important;
+    align-self: center;
   }
    
   .offer-image{

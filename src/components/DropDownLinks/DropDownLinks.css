@@ -1,0 +1,11 @@
+.hidden-col{
+    font-size: 0vw !important; 
+  }
+  
+  .col{
+    transition: 0.1s;
+  }
+  
+  .column-title{
+    cursor: pointer;
+  }

@@ -2,6 +2,7 @@ import './Footer.css'
 import './FooterMobile.css'
 
 import {Container,Row,Col} from 'react-bootstrap'
+import {DropDownLinks} from '../DropDownLinks/DropDownLinks.js'
 import zone from './img/icon.svg'
 import phone from './img/Phone.png'
 import mail from './img/Mail.png'
@@ -18,8 +19,7 @@ export const Footer = () => {
                 <Container className='footer-handler' fluid>
                     <Row className='footer-row'>
                         <Col className='footer-info footer-logo-handler'>
-                            <a href=''><img src={zone} className='footer-logo'/>
-                            Zone.</a>
+                            <a href=''><img src={zone} className='footer-logo'/>Zone.</a>
                         </Col>
                         <Col className='footer-info'>
                         <a href=''><   img src={pin}/>
@@ -40,34 +40,10 @@ export const Footer = () => {
                         <a href=''><img src={pint}/></a>
                         </Col>
                     </Row>
-                    <Row className='footer-row'>
-                        <Col><a href=''><p>Service</p></a></Col>
-                        <Col><a href=''><p>Order Management</p></a></Col>
-                        <Col><a href=''><p>Social Assistant</p></a></Col>
-                        <Col><a href=''><p>Crypto Platform</p></a></Col>
-                        <Col><a href=''><p>Analyzer of the News</p></a></Col>
-                    </Row>
-                    <Row className='footer-row'>
-                        <Col> <a href=''><p>Company</p></a></Col>
-                        <Col><a href=''><p>About Us</p></a></Col>
-                        <Col><a href=''><p>News</p></a></Col>
-                        <Col><a href=''><p>Our trusted partner</p></a></Col>
-                        <Col><a href=''><p>New users FAQ</p></a></Col>
-                    </Row>
-                    <Row className='footer-row'>
-                        <Col><a href=''><p>Supports</p></a></Col>
-                        <Col><a href=''><p>Help center</p></a></Col>
-                        <Col><a href=''><p>Feedback</p></a></Col>
-                        <Col><a href=''><p>Contact us</p></a></Col>
-                        <Col> <a href=''><p>Terms conditions</p></a></Col>
-                    </Row>
-                    <Row className='footer-row'>
-                        <Col><a href=''><p>Resources</p></a></Col>
-                        <Col><a href=''><p>Download App</p></a></Col>
-                        <Col><a href=''><p>Blog</p></a></Col>
-                        <Col><a href=''><p>What's new</p></a></Col>
-                        <Col><a href=''><p>Sitemap</p></a></Col>
-                    </Row>
+                    <DropDownLinks title = {'Service'} options={['Order Management','Social Assistant','Crypto Platform','Analyzer of the News']}/>
+                    <DropDownLinks title = {'Company'} options={['About Us','News','Our trusted partner','New users FAQ']}/>
+                    <DropDownLinks title = {'Supports'} options={['Help center','Feedback','Contact us','Terms conditions']}/>
+                    <DropDownLinks title = {'Resources'} options={['Download App','Blog',"What's new",'Sitemap']}/>
                 </Container>
             </div>
             <div className= 'footer-bottom'>

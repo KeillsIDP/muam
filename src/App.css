@@ -54,3 +54,15 @@ a{
   justify-content: center;
   text-align: center;
 }
+
+.hidden-col{
+  font-size: 0;
+}
+
+.col{
+  transition: 0.1s;
+}
+
+.column-title{
+  cursor: pointer;
+}
