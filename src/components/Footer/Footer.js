@@ -1,5 +1,6 @@
 import './Footer.css'
 import './FooterMobile.css'
+import {useState,useEffect} from 'react'
 
 import {Container,Row,Col} from 'react-bootstrap'
 import {DropDownLinks} from '../DropDownLinks/DropDownLinks.js'
@@ -13,6 +14,26 @@ import inst from './img/minstagram.svg'
 import pint from './img/mpinterest.png'
 
 export const Footer = () => {
+    const [width, setWidth] = useState(window.innerWidth);
+    const [checkDropDowns,setCheck] = useState('');
+    const dropDowns = [
+        <DropDownLinks title = {'Service'} options={['Order Management','Social Assistant','Crypto Platform','Analyzer of the News']} check={checkDropDowns} checkChange={setCheck}/>,
+        <DropDownLinks title = {'Company'} options={['About Us','News','Our trusted partner','New users FAQ']} check={checkDropDowns} checkChange={setCheck}/>,
+        <DropDownLinks title = {'Supports'} options={['Help center','Feedback','Contact us','Terms conditions']} check={checkDropDowns} checkChange={setCheck}/>,
+        <DropDownLinks title = {'Resources'} options={['Download App','Blog',"What's new",'Sitemap']} check={checkDropDowns} checkChange={setCheck}/>
+    ]
+    
+    function handleWindowSizeChange() {
+        setWidth(window.innerWidth);
+    }
+
+    useEffect(() => {
+        window.addEventListener('resize', handleWindowSizeChange);
+        return () => {
+            window.removeEventListener('resize', handleWindowSizeChange);
+        }
+    }, []);
+    const isMobile = width <= 768;
     return (
         <div className='footer'>
             <div className='footer-top'>
@@ -40,10 +61,12 @@ export const Footer = () => {
                         <a href=''><img src={pint}/></a>
                         </Col>
                     </Row>
-                    <DropDownLinks title = {'Service'} options={['Order Management','Social Assistant','Crypto Platform','Analyzer of the News']}/>
-                    <DropDownLinks title = {'Company'} options={['About Us','News','Our trusted partner','New users FAQ']}/>
-                    <DropDownLinks title = {'Supports'} options={['Help center','Feedback','Contact us','Terms conditions']}/>
-                    <DropDownLinks title = {'Resources'} options={['Download App','Blog',"What's new",'Sitemap']}/>
+                   {isMobile? <div className={'footer-links'}>
+                    {dropDowns}
+                    </div>
+                    :
+                    <>{dropDowns}</>
+                    }
                 </Container>
             </div>
             <div className= 'footer-bottom'>

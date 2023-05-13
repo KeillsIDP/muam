@@ -1,11 +1,21 @@
-.hidden-col{
-    font-size: 0vw !important; 
-  }
-  
+
   .col{
     transition: 0.1s;
   }
   
   .column-title{
     cursor: pointer;
+    font-weight: 800;
+    color: rgba(248, 198, 248, 0.836);
+  }
+
+  @media screen and (max-width: 767px) {
+    .drop-down-links .footer-row{
+      flex-direction: column;
+      gap: 1vw !important;
+    }
+
+    .drop-down-links{
+      margin-top: 1vw;
+    }
   }

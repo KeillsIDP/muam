@@ -55,10 +55,6 @@ a{
   text-align: center;
 }
 
-.hidden-col{
-  font-size: 0;
-}
-
 .col{
   transition: 0.1s;
 }
